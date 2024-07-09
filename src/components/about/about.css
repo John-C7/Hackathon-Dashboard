@@ -1,0 +1,47 @@
+.about-container {
+  height: fit-content; 
+  width: 100%; 
+  background-size: cover;
+  padding: 20px;
+  color: rgb(20, 13, 87);
+}
+
+.about-heading {
+  text-align: center;
+  text-decoration: double;
+  font-size: 2em;
+  margin-bottom: 40px; /* Add margin bottom for spacing */
+}
+
+.about-text {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 30px; /* Add margin bottom for spacing */
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+.register-button {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #21a1f1;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+}

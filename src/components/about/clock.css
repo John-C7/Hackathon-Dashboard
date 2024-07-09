@@ -1,0 +1,44 @@
+/* Existing styles */
+.App123 {
+    text-align: center;
+    height: auto; /* Adjusted to fit content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  .clock {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(270deg, #051817, #2b369d);
+    height: 160px; 
+    width: 380px;  
+    color: #06f1f6;
+    text-shadow: 1px 1px 7px;
+    border-radius: 15px;
+    border: 2px solid silver;
+    box-shadow: 0 0 5px 15px;
+  }
+  
+  .clock section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .clock section p {
+    font-size: 2rem; /* Adjusted to make it smaller */
+  }
+  
+  .clock section small {
+    color: silver;
+    text-shadow: none;
+  }
+  
